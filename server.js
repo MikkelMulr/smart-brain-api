@@ -43,7 +43,7 @@ app.post('/signin', (req, res) => {
     // res = false
   });
 
-
+  // this still needs to be setup to check for user data in the DB (to be added)
   if(req.body.email === database.users[0].email && 
     req.body.password === database.users[0].password) {
 
